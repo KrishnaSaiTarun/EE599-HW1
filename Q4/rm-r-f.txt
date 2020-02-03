@@ -1,0 +1,11 @@
+  
+Used the man page of rm as a reference:
+
+   rm - remove files or directories
+
+-f, --force
+              ignore nonexistent files and arguments, never prompt but just remove!!
+
+       -r, -R, --recursive
+              remove directories and their contents recursively, everything inside it!!
+
