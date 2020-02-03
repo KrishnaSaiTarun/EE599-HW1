@@ -1,0 +1,14 @@
+
+Assumption 1: The vector is sorted
+
+If the vector is sorted then first we have to get the size of the vector.
+
+     vector.size() ----- > O(1)
+
+Check if the number is odd or even -----> O(1)
+
+Return the middle element if odd or the average of the middle two elements if even -------> O(1)
+
+The time complexity of this is O(1).
+
+*********** If the vector was not sorted, the the sorting takes O(nlogn) and that will be the answe**********
