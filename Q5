@@ -1,0 +1,27 @@
+Example1:
+
+Assuming n > 0.
+
+First j : 0 to  i = n ; Therefore the inner loop runs 'n' times.
+Next j : 0 to  i = n/2; Therefore the inner loop runs 'n/2' times........
+
+The complexity can be calculated by the series n + n/2 + n/4 + n/8 ..........
+
+	= n (1 + 1/2 + 1/4 + 1/8 + ........)
+	= n + n (1/2 + 1/4 + 1/8 + ........)
+	= n + n (1/2)/1-(1/2)
+	= n + n
+	= 2n
+	=> O(n). 
+	
+Example 2:
+
+Assuming n > 0
+
+The operations inside the while loop are O(1)
+
+But the whole loop is executed based on n = n/2. 
+
+So the while loop is executed log2(n) times.
+
+The time complexity is O(Log(n)). 

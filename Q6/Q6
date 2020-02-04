@@ -1,0 +1,39 @@
+1. The factoroial of a negative number is not defined. 
+
+	Ex, (-1)! = 1/0 which is not defined and hence any negative number factorial is not defined.
+	
+	We can return a -1 when the input is a negative number as it can be used as an error code. 
+	This function always returns a positive value. So, -1 can be used as errror!
+	
+2. Code File
+
+3. Code File
+
+4. 
+	If n is negative or 0, then it is O(1) : best case
+	Else
+
+   Recursive: 
+
+	The function is called n times from the start in total and each time it has just one computation. 
+	
+	So, n * O(1) = O(n).
+	
+   Iterative: 
+   
+   	The function has a while loop which goes from n ---> 0 so it will be O(n)
+   	
+5. Let us use proof by induction:
+
+	Base Case: Let n = 1, the function returns 1! = 1
+	
+	Induction Case: Let the case be true for n = k i.e. the function returns k!
+	
+		now for n = k + 1
+		
+	the function operates in a while loop where when n = k + 1, the result = k + 1 and then while loop 
+	goes to n = k and the answer is result = (k + 1) * k! = (k + 1)!
+	
+	Therefore this algorithm works correctly!
+	
+	

@@ -1,0 +1,18 @@
+Proof by contradiction for FindMax Function.
+
+
+1. Let us assume the result given to us by the function is: i 
+
+2. let us assume that the vector has another element which is greater than i: j
+ 		
+		Therefore, j > i
+		
+3. Let the input be inputs = { ..... i, .... , j, ....}
+
+4. When we reach the iteration where n = inputs[j], our result = i;
+
+5. if(n > result) result = n; 
+	i.e. if(j > i) result = j
+	But the result did not change and result = i
+	
+	That means j < i or j = i. This is a contradiction!! So the algorithm is correct!!
